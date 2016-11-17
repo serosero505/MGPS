@@ -302,8 +302,6 @@
                                     <li><?php echo anchor('controllerPlantilla/caracteristicas', 'Características'); ?></li>
                                     <li><?php echo anchor('controllerPlantilla/guia', 'Guía'); ?></li>
                                     <li><?php echo anchor('controllerPlantilla/quienesSomos', 'Acerca de'); ?></li>
-                                    <li><?php echo anchor('Usuarios/iniciar_sesion', 'Ayuda'); ?></li>
-
                                 </ul>
                             </div>
                             <script>
