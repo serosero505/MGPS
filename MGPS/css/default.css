@@ -1,0 +1,576 @@
+h1,h2, h3
+{
+    margin: 0;
+    padding: 0;
+}
+
+p, ol, ul
+{
+    margin-top: 0;
+}
+
+ol, ul.btn
+{
+    padding: 0;
+    list-style: none;
+}
+
+p
+{
+    line-height: 180%;
+}
+
+strong
+{
+}
+
+a
+{
+    color: #383838;
+}
+
+a:hover
+{
+    text-decoration: none;
+}
+
+.container
+{
+    width: 1200px;
+    margin: 0px auto;
+}
+
+/*********************************************************************************/
+/* Image Style                                                                   */
+/*********************************************************************************/
+
+.image
+{
+    display: inline-block;
+}
+
+.image img
+{
+    display: block;
+    width: 100%;
+}
+
+.image-full
+{
+    display: block;
+    width: 100%;
+    margin: 0 0 0 0;
+}
+
+.image-left
+{
+    float: left;
+    margin: 0 2em 2em 0;
+}
+
+.image-centered
+{
+    display: block;
+    margin: 0 0 2em 0;
+}
+
+.image-centered img
+{
+    margin: 0 auto;
+    width: auto;
+}
+
+/*********************************************************************************/
+/* List Styles                                                                   */
+/*********************************************************************************/
+
+ul.style1
+{
+}
+
+
+/*********************************************************************************/
+/* Social Icon Styles                                                            */
+/*********************************************************************************/
+
+ul.contact
+{
+    overflow:  hidden;
+    margin: 0em 0 0em 0;
+    padding-top: 1em;
+    text-align: center;
+}
+
+ul.contact li
+{
+    display: inline-block;
+    padding: 0em 0.30em;
+    font-size: 1em;
+}
+
+ul.contact li span
+{
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.contact li a
+{
+    color: #FFF;
+}
+
+ul.contact li a:before
+{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 2em;
+    color: rgba(255,255,255,.3);
+}
+
+/*********************************************************************************/
+/* Major Styles  (footer)                                               */
+/*********************************************************************************/
+
+.major
+{
+    overflow: hidden;
+    margin-bottom: 4em;
+    text-align: center;
+}
+
+.major h2
+{
+    letter-spacing: 0.10em;
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: 700;
+    color: #3f3f3f;
+}
+
+.major .byline
+{
+    display: block;
+    padding-top: 0.2em;
+    font-weight: 300;
+    font-size: 2em;
+}
+
+/*********************************************************************************/
+/* Title Styles                                                                  */
+/*********************************************************************************/
+
+.title
+{
+    text-align: center;
+}
+
+.title h2
+{
+    letter-spacing: 0.10em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #3f3f3f;
+}
+
+.title .byline
+{
+    display: block;
+    padding-top: 1em;
+    font-weight: 300;
+    font-size: 1.1em;
+}
+
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+/*
+        .button
+        {
+                display: inline-block;
+                margin: 1em 0em;
+                padding: 1em 3em 1em 3em;
+                background: #2A70E8;
+                border-radius: 8px;
+                letter-spacing: 0.20em;
+                text-decoration: none;
+                text-align: center;
+                text-transform: uppercase;
+                font-weight: 400;
+                font-size: 0.90em;
+                color: #FFF;
+        }
+        
+        .button:before
+        {
+        }
+*/		
+/*********************************************************************************/
+/* Header                      display: inline-block;
+*/
+/*********************************************************************************/
+
+#header
+{
+    height: 100px;
+    width: auto;
+
+}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+#logo
+{
+    padding: 1em 0em;
+    background: #BEC2D1;
+    text-transform: uppercase;
+    position: relative;
+    height: 18%;
+
+}
+
+
+#logo h1
+{
+    font-weight:900;
+    font-size: 2em;
+    position: absolute;
+    left: 8em;
+}
+
+
+#logo h1 a
+{
+    
+    text-decoration: none;
+}
+
+#logo #imgLogo{
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    top: 0em;
+}
+
+#logo span
+{
+    padding: 0em 0em 0em 0.0em;
+}
+
+#logo h1:before
+{
+
+}
+
+#logo a 
+{
+    color: #2A70E8;
+}
+
+#botoneraBuscar{
+    width: 100%;
+    position: absolute;
+    top: 4em;
+}
+
+
+/*********************************************************************************/
+/* Sesion                                                                          */
+/*********************************************************************************/
+
+
+#sesion
+{	
+    position: absolute;
+    font-weight: 300;
+    z-index: 5;  
+    top: 1em; 
+    right: 2em;
+    border-radius: 5px;
+}
+
+#sesion input[type="button"]{
+    display: inline-block;
+    margin: 1em 0em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    background: #62145A;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    color: #FFF;
+    float: top;
+}
+#sesion input[type="submit"]{
+    display: inline-block;
+    margin: 1em 0em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    background: #62145A;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    color: #FFF;
+    float: top;
+}
+
+#sesion input[type="text"]{
+    margin: 1em 0em;
+    width: 10em;
+    border-radius: 5px;
+    text-align: center;
+    float: top;
+}
+
+#sesion #botoneraSesion a{
+    position: relative;
+    top: -2em;
+    font-size: 0.7em;
+    color: black;
+}
+
+#sesion #botoneraSesion{
+    float: top;
+}
+
+#sesion #btnBuscar{
+    position: relative;
+    font-size: 1em;
+    width: 80%;
+    height: 10%;
+    top: -3em;
+    left: 10%;
+    font-size: 0.8em;
+}
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+#menu{
+    margin: auto;
+    width: 100%;
+    width: 800px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 5;  
+    top: 2em;
+    left: 6em;
+}
+
+#menu ul , #menu ol
+{
+    list-style: none;
+}
+
+#menu li a
+{
+    background-color: #CCC;
+    color: black;
+    text-decoration: none;
+    padding: 2px 5px;
+    display: block;
+    height: 50%;
+    border-radius: 2px;
+}
+
+
+#menu .current_page_item a
+{
+    border-radius: 30px;
+    border: 1px solid;
+    border-color: rgba(255,255,255,.2);
+    background: #888FAB;
+}
+
+#menu a:hover
+{
+    background-color: black;
+    font-size: 16px;
+    font-weight: bold;
+    color: white; 
+}
+
+#menu li{
+    float: left;
+    margin: 1px;
+}
+
+#menu li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+#menu li:hover ul{
+    display: block;
+}
+
+#menu li ul li {
+    position: relative;
+}
+
+#menu li ul li ul {
+    right: -140px;
+    top: 0px;
+}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+#banner
+{
+}
+
+/*********************************************************************************/
+/* Page                                                                          */
+/*********************************************************************************/
+
+#page-wrapper
+{
+    background: #EEEEEE;
+}
+
+#page
+{
+    overflow: hidden;
+    padding: 6em 0em;
+}
+
+#botoneraFotos:hover {
+    
+}
+
+.animacionFoto:hover img {
+    width: 90%;
+}
+
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+
+#content
+{
+    text-align: center;
+    width: 588px;
+    text-align: center;
+    padding: 1em 2em 2em 2em;
+    text-align: center;
+    font-size: 2em;
+
+}
+#page #titulo{
+    text-align: center;
+    color: #7B87B3;
+}
+
+.botonera input[type="button"]{
+    display: inline-block;
+    margin: 1em 0em;
+    padding: 1em 3em 1em 3em;
+    background: #2A70E8;
+    border-radius: 8px;
+    letter-spacing: 0.20em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.90em;
+    color: #FFF;
+    float: top;
+}
+.botonera {
+    text-align: center;
+}
+
+.botonera>li {
+    display: inline-block;
+}
+
+/*********************************************************************************/
+/* Sidebar                                                                       */
+/*********************************************************************************/
+
+#sidebar
+{
+    float: right;
+    width: 588px;
+}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+#footer
+{
+}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+/*
+#copyright
+{
+        overflow: hidden;
+        padding: 5em 0em;
+}
+
+#copyright p
+{
+        letter-spacing: 0.20em;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 0.80em;
+        color: #6F6F6F;
+}
+
+#copyright a
+{
+        text-decoration: none;
+        color: #8C8C8C;
+}
+*/
+
+/*********************************************************************************/
+/* Featured                                                                      */
+/*********************************************************************************/
+
+
+/*********************************************************************************/
+/* Portfolio                                                                     */
+/*********************************************************************************/
+
+.nombres{
+    font-weight: bold;
+    color: #003399;
+    font-size: 18px;
+}
+
+#contact{
+    background: #55555E;
+    color: white;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact>li {
+    display: inline-block;
+}
+
+
+
